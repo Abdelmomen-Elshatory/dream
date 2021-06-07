@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dream Tv - site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <link class="boot" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/television.svg" />
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav class="our-navbar navbar navbar-expand-md navbar-light bg-white">
+        <a class="navbar-brand logo" href="index.html">
+            <img src="images/DreamTv-player.png" alt="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav nav-ul">
+                <li class="nav-item ">
+                    <a class="nav-link text-capitalize" href="index.html">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="upload.html">upload my list</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-capitalize" href="activation.html">activation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="about.html">about us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-capitalize dropdown-toggle arrow" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        language
+                    </a>
+                    <div class="dropdown-menu lang" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="activation.html" class="dropdown-item text-capitalize english" href="#">english</a>
+                        <a href="activation-rtl.html" class="dropdown-item text-capitalize arabic" href="#">arabic</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Activation -->
+    <div class="activation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <form class="text-center">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Code">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputPassword1" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn text-uppercase">reset</button>
+                    </form>
+                </div>
+            </div>
+            <img class="img-responsive" src="images/support.svg" alt="img" />
+        </div>
+    </div>
+    <!-- End Activation -->
+
+    <!-- Start Contact Us -->
+    <section class="contact-us text-capitalize text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 info">
+                    <img class="img-responsive" src="images/dream-white-logo.png" alt="logo" />
+                    <div class="contact-info">
+                        <div class="email">
+                            <i class="fa fa-envelope-o"></i>
+                            <span>email:</span>
+                            mail@dreamtv.com
+                        </div>
+                        <div class="phone">
+                            <i class="fa fa-volume-control-phone"></i>
+                            <span>phone: </span>
+                            (123) 4567851490
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="rule">
+                        <div class="terms">
+                            <a href="terms.html">terms of service</a>
+                        </div>
+                        <div class="policy">
+                            <a href="policy.html">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 forms">
+                    <h2>contact us</h2>
+                    <form>
+                        <div class="form-group group">
+                            <input type="email" class="form-control" placeholder="Your Name (Required)"
+                                id="exampleInputEmail1">
+                        </div>
+                        <div class="form-group group">
+                            <input type="password" class="form-control" placeholder="Email (Required)"
+                                id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group group">
+                            <input type="text" class="form-control" placeholder="Subject" id="exampleInputPassword2">
+                        </div>
+                        <div class="form-group group">
+                            <textarea class="form-control" placeholder="Your Message" id="exampleFormControlTextarea1"
+                                rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Us -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <p class="text-capitalize text-center">&copy; copyright 2020. all rights reserved</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/glider.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+</body>
+</html>
